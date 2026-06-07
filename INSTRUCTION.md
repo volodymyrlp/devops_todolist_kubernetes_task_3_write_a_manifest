@@ -12,7 +12,7 @@ kubectl apply -f .infrastructure/todoapp-pod.yml
 kubectl apply -f .infrastructure/busybox.yml
 
 
-### Application Verification
+## Application Verification
 
 # Port-forwarding for local verification
 kubectl port-forward pod/todoapp-pod 8080:8000 -n todoapp
