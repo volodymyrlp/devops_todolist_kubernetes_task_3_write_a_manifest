@@ -1,7 +1,7 @@
 from django.urls import path
-from todolists import views
+from lists import views
 
-app_name = "todolists"
+app_name = "lists"
 
 urlpatterns = [
     path("", views.index, name="index"),
